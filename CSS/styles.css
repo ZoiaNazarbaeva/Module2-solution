@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+  }
+
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .row {
+    width: 100%; 
+  } 
+
+  #box_chicken {
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 45px; 
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e1ea92; 
+    font-family: Helvetica;
+    color: rgb(148, 17, 74);
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+  }
+ 
+ #box_beef {
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e78a81; 
+    font-family: Helvetica;
+    color: rgb(10, 15, 90);
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+  }
+
+  #box_fish {
+    padding: 10px;
+    border: 1px solid black;
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #75afe6; 
+    font-family: Helvetica;
+    color: rgb(251, 251, 251);
+    text-align: center;
+    font-weight: bold;
+    overflow:auto;
+  }
+
+  .box_content {
+    padding: 60px 10px 10px 10px; 
+    border: 1px solid black; 
+    width: 100%; 
+    height: 230px; 
+    overflow:auto; 
+    background-color: #c3f3f7; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    position: relative;
+  }
+  
+  /********** Large devices only **********/
+  @media (min-width: 992px) {
+    .col-lg-4 {
+      float: left;
+    }
+    .col-lg-4 {
+      width: 30%;
+      padding: 20px;
+      margin-left: 5px;
+      margin-right: 5px;
+      position: relative;
+      left: 4%;
+      top: 5px;
+    }
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6, .col-md-12{
+      float: left;
+    }
+    .col-md-6 {
+      width: 45%;
+      padding-right: 30px;
+      padding-left: 30px;
+      position: relative;
+      left: 5%;
+      top: 5px;
+    }
+    .col-md-12 {
+      width: 90%;
+      padding: 30px;
+      position: relative;
+      left: 5%;
+      top: 15px;
+    }
+  }
+
+    /********** Small devices only **********/
+  @media (max-width: 767px) {
+    .col-s-12{
+      float: left;
+    }
+    .col-s-12 {
+      width: 90%;
+      padding: 20px;
+      position: relative;
+      left: 5%;
+      bottom: 25px;
+    }
+  }
+ 
